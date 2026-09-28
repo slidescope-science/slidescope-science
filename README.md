@@ -1,62 +1,41 @@
 # SlideScope
 
-**Desktop digital pathology and microscopy viewer for Windows and macOS.**
+**A desktop digital pathology and microscopy viewer for Windows and macOS.**
 
-SlideScope opens whole slide images from the major slide scanner vendors and research
-microscopy files in one window, on your own machine, with no image server.
+SlideScope opens whole slide images from the major slide scanners and research microscopy
+files in one window, on your own computer, with no image server. Researchers, pathology
+review teams and educators use it to look at slides, measure in micrometres, annotate and
+share an exact view.
 
-- Website: https://slidescope.science/
-- Digital pathology viewer: https://slidescope.science/digital-pathology-viewer/
-- What is digital pathology: https://slidescope.science/what-is-digital-pathology/
-- Whole slide image viewer comparison: https://slidescope.science/whole-slide-image-viewer-comparison/
-- Release notes: https://slidescope.science/en/release-notes/
-- Microsoft Store: https://apps.microsoft.com/detail/xpdlmkv6zm2prt
-- bio.tools: https://bio.tools/slidescope
-- Wikidata: https://www.wikidata.org/wiki/Q140797497
+**[slidescope.science](https://slidescope.science/)** ·
+[Download](https://slidescope.science/en/downloads/) ·
+[Supported formats](https://slidescope.science/en/supported-file-formats/) ·
+[Release notes](https://slidescope.science/en/release-notes/) ·
+[Support](mailto:support@slidescope.science)
 
-## Formats
+## At a glance
 
-| Source | Formats |
+| | |
 |---|---|
-| Aperio / Leica Biosystems | SVS, SVSLIDE |
-| Hamamatsu NanoZoomer | NDPI, VMS, VMU |
-| 3DHISTECH Pannoramic | MRXS |
-| Leica SCN400 / GT450 | SCN |
-| Ventana / Roche | BIF |
-| Akoya / PerkinElmer / Vectra | QPTIFF |
-| Agilent ARGOS | AVS |
-| Vendor-neutral | DICOM (including DICOM WSI), pyramidal TIFF, OME-TIFF |
-| Research microscopes | Zeiss CZI, Nikon ND2, Leica LIF, Imaris IMS |
+| Whole slide images | Aperio SVS and SVSLIDE, Hamamatsu NDPI, VMS and VMU, 3DHISTECH MRXS, Leica SCN, Ventana BIF, Akoya QPTIFF, Agilent AVS, DICOM WSI |
+| Microscopy files | ZEISS CZI, Nikon ND2, Leica LIF, Imaris IMS, TIFF and OME-TIFF |
+| Platforms | Windows 10 and later; macOS 14 and later (Apple Silicon and Intel) |
+| Get it | [slidescope.science](https://slidescope.science/en/downloads/), [Microsoft Store](https://apps.microsoft.com/detail/xpdlmkv6zm2prt), [Mac App Store](https://apps.apple.com/us/app/slidescope-microscopy-viewer/id6803618767) |
+| Price | 3-day full-access trial, then a monthly or annual subscription; [plans](https://slidescope.science/plans/) |
+| Use | Research, education and review. Not a medical device; not for primary diagnosis. |
 
-Not supported: Philips iSyntax, Olympus VSI. Full matrix:
-https://slidescope.science/microscopy-file-compatibility/
+## Here on GitHub
 
-## What it does
+- **[slidescope](https://github.com/slidescope-science/slidescope)**: public reference material.
+  It holds the format table, an example of SlideScope's GeoJSON annotation export (it opens
+  in QuPath), and citation metadata for papers that use SlideScope.
 
-- Reads the scanner's image pyramid so multi-gigabyte slides open in seconds on a laptop.
-- Measures in calibrated micrometres from the pixel size the scanner recorded.
-- Keeps annotations attached to the slide; exports regions as GeoJSON (QuPath-compatible,
-  see [`examples/annotations.geojson`](examples/annotations.geojson)) and measurements as CSV.
-- Compares two slides side by side at matched physical scale.
-- Shares an exact field of view (slide, position, zoom, plane) as a link.
-- Local Quantification: nuclei, cell, and particle counts computed on your own computer.
-- Optional AI Analysis that explains the current frame in plain language.
+The SlideScope application itself is proprietary and is distributed only from
+[slidescope.science](https://slidescope.science/) and the app stores.
 
-## Platforms and price
+## Elsewhere
 
-Windows 10 and later; macOS 14 and later (Apple Silicon and Intel).
-Free 3-day trial with every feature, then a monthly subscription; cancel anytime.
-Pricing: https://slidescope.science/plans/
-
-## Scope
-
-SlideScope is for research, education, and review. It is not a medical device and is not
-cleared for primary diagnosis.
-
-## This repository
-
-This repository holds public reference material for SlideScope: the GeoJSON annotation
-export example and links to documentation. The application itself is proprietary and is
-distributed from https://slidescope.science/.
-
-Support: support@slidescope.science
+[LinkedIn](https://www.linkedin.com/company/slidescope-science) ·
+[YouTube](https://www.youtube.com/channel/UCQootI0pG0wvjEBjJuWkKwg) ·
+[bio.tools](https://bio.tools/slidescope) ·
+[Wikidata](https://www.wikidata.org/wiki/Q140797497)
